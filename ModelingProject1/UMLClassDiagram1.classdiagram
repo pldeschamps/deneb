@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="1efb2f23-c3b1-4807-b997-8cc7fd9f9392" name="UMLClassDiagram1" linkedPackageId="a8e08d6c-0942-47ba-8f65-ae8b2f2fdad6" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="a571c26f-4975-4a26-a8fe-800475ce088f" name="CriticalityVariations" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="3072954f-3865-4a6a-b148-c19ed44edbce" />
+        <ownedAttributesInternal>
+          <property Id="9e4897e7-74bf-4675-a21b-82ae23344c3f" name="length" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="71e7e511-636b-4c7f-a77f-28626ddc8a56" />
+          </property>
+          <property Id="48c2a08a-0a35-4c05-818a-479b537a8084" name="variation" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="a2f8be7c-45aa-4a16-afba-89d202fafb61" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="03a50ed0-d882-4c65-b41c-b577a8ad89bf" name="Criticality" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="0e3030bf-9e7c-4291-a8da-e41a3c3949d5" />
+        <ownedAttributesInternal>
+          <property Id="129406cb-970a-4faf-a576-49706f17bd7e" name="Variations" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="5efacbb9-edbf-4890-99eb-bcf4c19c09a1" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="914c92f9-73bd-4a54-9da5-15208e915b5e" LastKnownName="CriticalityVariations" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="914c92f9-73bd-4a54-9da5-15208e915b5e" name="CriticalityVariations" isAbstract="false" isLeaf="false" cachedFullName="ModelingProject1::CriticalityVariations">
+        <elementDefinition Id="3072954f-3865-4a6a-b148-c19ed44edbce" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="b4d8a174-bb33-4082-95eb-8d47eef705d1" name="Precursor" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="06358ae6-f696-4a4c-98e2-0a7270f7d84a" />
+        <ownedAttributesInternal>
+          <property Id="6186aed5-857c-4ad1-8ecc-a115bc452d0f" name="lambda" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="d52c96b3-a413-4567-8425-f841c3d13fb1" />
+          </property>
+          <property Id="4b2d12e3-f11f-425a-8f67-0402701b5e65" name="beta" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="ceb34b23-af2c-4251-93e2-d174e3bb1b83" />
+          </property>
+          <property Id="5494def6-0638-4cc4-ac9f-f4c6f4560d7c" name="popList" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="83b1f1c5-3c80-411b-a4f1-818c8334713e" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="3bd45e62-7307-405f-b298-42f6e4b919c0" name="Precursors" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="1896b4c0-f52c-411b-b9b9-e23f17bbd53a" />
+        <ownedAttributesInternal>
+          <property Id="53c04b15-261d-440d-8eb2-39932f5edf73" name="Group" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="5a15a6bc-52f9-4887-a2d0-3904431a14b2" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="a8e08d6c-0942-47ba-8f65-ae8b2f2fdad6" name="ModelingProject1">
+    <elementDefinition Id="3a27c2d9-a35e-470b-81a3-ddd07d9d452d" />
+    <profileInstances>
+      <packageHasProfileInstances Id="8d0638a9-d8f0-413c-a3ec-6f3f19f00602">
+        <profileInstance Id="0d43ffc1-2f9e-40b4-bfd7-c6350f3d5002" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="68ed6261-0151-4b8a-bfe0-bd14b1cc67c3">
+        <profileInstance Id="f21df1e2-7e60-4a11-8592-a617329eea28" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</logicalClassDesignerModel>

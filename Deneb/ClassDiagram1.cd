@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Deneb.CriticalityPanel">
+    <Position X="0.75" Y="1.75" Width="4.75" />
+    <NestedTypes>
+      <Delegate Name="Deneb.CriticalityPanel.CriticalityChangeHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CriticalityPanel.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AADAAIAFAKAAAQAAQICQCAACABAgQIAAIgAAAAACCAA=</HashCode>
+      <FileName>CriticalityPanel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Deneb.CriticalityVariations" Collapsed="true">
+    <Position X="6" Y="1.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAABAAAAAQBAAAEBAAEAAQAAAAAAAA=</HashCode>
+      <FileName>CriticalityVariations.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Deneb.Experiment" Collapsed="true">
+    <Position X="0.75" Y="0.75" Width="8.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>iMKIAAAAgCACAbQAAKCBAQACICAwCYAAADhAAhAAAAA=</HashCode>
+      <FileName>Experiment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Deneb.CriticalityVariationsPoints" Collapsed="true">
+    <Position X="6" Y="3.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AACABACAAASAgAgAAAAQAIAAAQQAgAAAgAAAAAAAAAA=</HashCode>
+      <FileName>CriticalityVariationsPoints.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>
