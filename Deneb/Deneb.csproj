@@ -55,10 +55,10 @@
     <SignManifests>true</SignManifests>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>6AB8E5CA45115C76501B578524B1BE61C1FD6A76</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>4BB28E73A21DA51F9DA1757586AF7357D10A417D</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestKeyFile>Deneb_TemporaryKey.pfx</ManifestKeyFile>
+    <ManifestKeyFile>Deneb_1_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
     <GenerateManifests>true</GenerateManifests>
@@ -155,6 +155,7 @@
       <DesignTime>True</DesignTime>
     </Compile>
     <None Include="ClassDiagram1.cd" />
+    <None Include="Deneb_1_TemporaryKey.pfx" />
     <None Include="Deneb_TemporaryKey.pfx" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
